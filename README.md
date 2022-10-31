@@ -16,7 +16,7 @@
   
 <h1> 🖥️Para executar o projeto local</h1>
 
-<p>📋 1- clone o repositorio em seguida certifique-se que  a url do bango de dados MongoDB Atlas está no application.properties: </p>
+<p>📋 1- clone o repositorio em seguida certifique-se que  a url do banco de dados MongoDB Atlas está no application.properties: </p>
 <p> #spring.data.mongodb.uri=mongodb+srv://root:root@cluster0.dk2toux.mongodb.net/?retryWrites=true&w=majority <p>
 <p> #spring.data.mongodb.database=my_database <p>
 <p>📋 2- Execute aplicação e abra seu navegador e digite http://localhost:8080/swagger-ui.html#/ </p>
