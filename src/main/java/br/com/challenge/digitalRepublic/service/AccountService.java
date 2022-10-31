@@ -2,7 +2,8 @@ package br.com.challenge.digitalRepublic.service;
 
 
 import br.com.challenge.digitalRepublic.entities.Account;
-import org.springframework.http.HttpStatus;
+
+import br.com.challenge.digitalRepublic.response.Response;
 
 import java.util.List;
 
@@ -12,5 +13,5 @@ public interface AccountService {
 
      public String findById(String id);
 
-     HttpStatus openAccountRules(Account account);
+     Response<Account> abrirConta(Account account);
 }

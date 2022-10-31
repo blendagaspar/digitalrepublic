@@ -5,6 +5,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Document
@@ -14,21 +15,21 @@ public class Account {
     @Id
     private String id ;
 
-    private Person person;
+    private String nomeCompleto;
 
-    private Integer agency;
+    private String cpf;
 
-    private Integer accountNumber;
+    private Integer agencia;
 
-    private Integer accountBalance;
+    private Integer numeroDaConta;
 
-    public Date accountCreationDate;
+    private int saldo;
 
-    public void AccountCreate(Person person, Integer agency , Integer accountNumber, Integer accountBalance, Date accountCreationDate ) {
-        this.person = person;
-        this.agency = agency;
-        this.accountNumber = accountNumber;
-        this.accountCreationDate = accountCreationDate;
+    public Date dataDeCriacaoDaConta;
+
+    public void AccountCreate( String cpf , Integer numeroDaConta ) {
+        this.nomeCompleto= nomeCompleto;
+        this.cpf = cpf;
 
     }
 
