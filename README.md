@@ -4,7 +4,7 @@
 
 <h1> 🖥️ Para Avaliar </h1>
 
- <p>O projeto encontra-se na branch master https://github.com/blendagaspar/CepApi/tree/master </p>
+ <p>O projeto encontra-se na branch master https://github.com/blendagaspar/digitalrepublic/tree/master </p>
 
 <h1>🖥️ API REST para criar conta bancária e fazer transferencias :</h1>
 
