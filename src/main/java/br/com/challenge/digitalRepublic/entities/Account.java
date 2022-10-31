@@ -27,7 +27,7 @@ public class Account {
 
     public Date dataDeCriacaoDaConta;
 
-    public void AccountCreate( String cpf , Integer numeroDaConta ) {
+    public Account( String cpf , String nomeCompleto ) {
         this.nomeCompleto= nomeCompleto;
         this.cpf = cpf;
 
